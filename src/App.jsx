@@ -8,7 +8,7 @@ function App() {
   const [title, setTitle] = useState('')
 
   useEffect(() => {
-    setMovies(['Shrek', 'Król Lew', 'Toy Story'])
+    setMovies(['Kung Fu Panda', 'How to Train Your Dragon', 'Kot w Butach: Ostatnie życzenie'])
   }, [])
 
   function addMovie() {
